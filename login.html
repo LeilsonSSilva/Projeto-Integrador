@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Document</title>
+  <title>Gr1.com - Informações e notícias sobre a copa do mundo</title>
+  <link rel="icon" type="image" href="/images/icon.jpeg">
 </head>
 <body>
   <header>
     <h1>Gr1.com</h1>
-    <h2>ENTRE | CADASTRE-SE</h2>
-    <img src="Logo-Fifa-Cor.png" alt="Logo da Copa">
+    <h4>ENTRE | CADASTRE-SE</h4>
+    <img src="/images/Logo-Fifa-Cor.png" alt="Logo da Copa">
     <nav>
       <ul>
         <li><a href="index.html">Notícias</a></li>
@@ -26,37 +26,50 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section>
-        <h3>Login</h3>
-            <p>Novo no Site? Registre-se</p>
-                <form action="">
-                    <label for="Email">
-                        Email
-                    </label>
-                    <input id="Email" name="Email" type="Email">
-                </br>  
-                    <label for="Senha">
-                        Senha
-                    </label>
-                    <input id="Senha" name="Senha" type="password">
-                </form>
-            <p>Esqueceu a senha?</p>
-            
-        <button type="submit">Login</button>
-            <p>ou</p>
-        <button type="submit">Facebook</button> <button type="submit">Google</button>
-            
-    </section>
-  </main>
-  <footer>
-    <img src="Rodapé.png" alt="Rodapé com as Bandeiras">
-    <ul>
-      <li>Sobre o Site</li>
-      <li>Termos de Uso</li>
-      <li>Política de Privacidade</li>
-    </ul>
-    <span>Copyright 2022 - Gr1.com - Todos os direitos Reservados</span>
-  </footer>
+  
+  <div class="container-login">
+    <div class="login-img">
+      <h1> Faça seu login<br> E fique por dentro das notícias em primeira mão</h1>
+        <img src="/images/logogr1.png" alt="logogr1">
+    </div>
+    
+    <div class="login">
+        <form action="">
+            <div class="login-header">
+                <div class="login-header-title">
+                    <h1> Cadastre-se</h1>
+                    <p>novo no site?<a href="cadastro.html">Registre-se </a></p>
+                </div>
+              </div> 
+
+              <div class="input-grupo">
+                <div class="input-box">
+                  <label for="email"> Email:</label>
+                        <input id="email" type="email" name="email" placeholder="Digite o seu email" required>
+                        </div>
+
+                        <div class="input-box">
+                          <label for="senha"> Senha:</label>
+                          <input id="senha" type="password" name="senha" placeholder="Digite sua senha" required>
+                          </div>
+
+                          <div class="botao-login">
+                            <button><a href="">Login</a></button>
+                            <p> ou </p>
+                        </div>
+                        <div class="redes">
+                          <a href="https://pt-br.facebook.com/" target="_blank" re="noopener noreferrer">
+                            <img src="/images/Facebook_icon.svg.webp" width="30px">
+                            <!-- <p> Facebook</p> -->
+                        </a>
+
+                        <a href="https://www.google.com/intl/pt-BR/account/about/" target="_blank" re="noopener noreferrer">
+                          <img src="/images/Google__G__Logo.svg" width="30px">
+                          <!-- <p>Google</p> -->
+                      </a>
+
+                        </div>                                       
+            </div>
+    </div>
 </body>
 </html>
