@@ -34,8 +34,6 @@ h2 {
   background-color: rgb(84, 9, 94);
   color:#f8f2f7;
   font-size: 16px;
-
-
 }
 
 .img-header {
@@ -44,8 +42,6 @@ h2 {
   background-color: rgb(84, 9, 94);
   
 }
-
-
 
 ul {
   display: flex;
@@ -112,12 +108,62 @@ footer span {
   /*background: linear-gradient(100deg, #28091a, #823952);*/
 }
 
+.Brasil {
+  /* background-color: rgba(260, 200, 3, 0.867);*/
+  background-color: #fccc0c;
+  color: #084ce4;
+  }
 
+.Brasil p {
+  padding-left: 20px;
+  text-decoration: solid;
+
+}
+
+.CBF {
+  border-style: dashed;
+  background-color: black;
+  display: flex;
+  justify-content: right;
+  align-self: center;
+}
+
+.Argentina {
+  background-color: #84c4dc;
+  color: white;
+  padding-bottom: 1rem;
+}
+
+.Argentina p {
+  padding-left: 20px;
+  text-decoration: solid;
+    
+}
+
+.Argentina img {
+  display: flex;
+  justify-content: right;
+  padding-bottom: 1rem;
+}
+
+.Franca {
+  background-color: white;
  
+}
 
+.Franca p {
+  padding-left: 20px;
+  text-decoration: solid;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  
+}
 
-
-
+.Franca img {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
 
 
 
