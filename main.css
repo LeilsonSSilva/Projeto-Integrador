@@ -73,8 +73,9 @@ footer {
   position: relative;
   padding: 2rem;
   background-color: rgb(66, 17, 44);
-  
+  color: white;
 }
+
 
 .img-rodape {
   display: flex;
