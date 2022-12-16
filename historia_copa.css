@@ -14,6 +14,9 @@
 body{
   background-color: #f8f2f7;
   color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  
 }
 
 
@@ -47,6 +50,47 @@ a {
   padding-right: 1.8rem;
 }
  
+#titulo{
+  font-size: 3rem;
+  color: #28091a;
+  margin: 1rem;
+  padding-top: 2rem;
+  padding-left: 55rem;
+  padding-right: 5rem;
+  padding-bottom: 1rem;
+  word-spacing: 15px;
+  letter-spacing: 2px;
+
+}
+
+main{
+  background-image: url(./images/Taça_copa.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  
+}
+
+
+.conteudo{
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  word-spacing: 15px;
+  letter-spacing: 2px;
+  text-align: justify;
+  font-size: 1.6rem;
+  padding-left: 55rem;
+  padding-right: 5rem;
+  color: #000000;
+}
+
+p{
+  padding-bottom: 2rem;
+}
+
+
+
+
 footer {
   display: flex;
   flex-direction:column;
@@ -54,6 +98,7 @@ footer {
   position: relative;
   padding: 2rem;
   background-color: rgb(66, 17, 44);
+  
   
 }
 
@@ -65,7 +110,7 @@ footer {
   top: 40%;
   left: 40%;
   margin: -25px 0 0 -25px;
-  padding: 1em;
+  padding: 1rem;
   background: linear-gradient(100deg, #28091a, #823952);
 }
 
