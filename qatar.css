@@ -6,13 +6,13 @@ body{
 
 
 .qatar{
-  width: 40rem;
-  height: 38rem;
+  width: 45rem;
+  height: 40rem;
   text-align: initial;
   display:flex;
   flex-direction:row;
   margin-left: 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10rem;
 
 }
 

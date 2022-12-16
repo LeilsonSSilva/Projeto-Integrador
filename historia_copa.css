@@ -1,9 +1,12 @@
 
+
+
 .fundo{
   background-image: url(./images/Taça_copa.png);
   background-repeat: no-repeat;
   background-size: cover;
- 
+  padding-bottom: 10rem;
+   
 }
 
 
@@ -11,10 +14,10 @@
   font-size: 3rem;
   color: #28091a;
   margin: 1rem;
-  padding-top: 2rem;
+  padding-top: 5rem;
   padding-left: 55rem;
   padding-right: 5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
   word-spacing: 15px;
   letter-spacing: 2px;
  
@@ -24,19 +27,19 @@
 
 .conteudo{
   margin-top: 1rem;
-  margin-bottom: 3rem;
   word-spacing: 15px;
   letter-spacing: 2px;
   text-align: justify;
-  font-size: 1.6rem;
-  padding-left: 55rem;
+  padding-left: 40rem;
   padding-right: 5rem;
   color: #000000;
+  
 }
 
+
 p{
-  padding-bottom: 2rem;
-  text-indent: 3rem;
+  padding-bottom: 3rem;
+  text-indent: 2rem;
   
 }
 

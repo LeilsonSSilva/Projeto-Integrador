@@ -1,6 +1,12 @@
-.grupos{
- size: 40rem;
+.img-grupos {
+  display: flex;
+  width: 80rem;
+  height: 50rem;
+  padding: auto;
+  margin: auto;
 }
+
+
 
 
 footer {
