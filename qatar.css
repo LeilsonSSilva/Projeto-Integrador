@@ -1,45 +1,49 @@
 body{
-  background-color: #f8f2f7;
-  color: rgb(0, 0, 0);
+  background-color: #dddd;
 }
 
 
+.tituloQatar{
+  font-size: 3rem;
+  font-style: oblique;
+  font-weight: 1000;
+  color: rgb(66, 17, 44);
+  padding-top: 2rem;
+  padding-left: 75rem;
+  padding-bottom: 2rem;
+  word-spacing: 15px;
+  letter-spacing: 2px;
+ 
+}
 
-.qatar{
-  width: 45rem;
-  height: 40rem;
-  text-align: initial;
-  display:flex;
-  flex-direction:row;
+.texto{
+  word-spacing: 15px;
+  letter-spacing: 1px;
+  padding-left: 48rem;
+  padding-right: 4rem;
+  text-indent: 2rem;
+  text-align: justify;
+  color: black;
+  font-weight: 400;
+  font-size: 1.2rem;
   margin-left: 1rem;
-  margin-bottom: 10rem;
-
-}
-
-p{
-  margin-top: 1rem;
-  margin-left: 15rem;
-  font-size: 1.1rem;
-  
+  margin-bottom: 1rem;
+  background-image: url(./images/Estadio-qatar.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+   
 }
 
 
-h3{
-  font-size: 30px;
-  margin-top: 3rem;
-  margin-left: 1rem;
-  margin-bottom: 2rem;
-
+#li{
+  text-decoration: underline;
+  color: black;
+  background-color: rgba(0, 0, 0, 0);
 
 }
 
 
 
-
-h3 a {
-    background-color: white;
-    text-decoration: none
-}
 footer {
     display: flex;
     flex-direction:column;
