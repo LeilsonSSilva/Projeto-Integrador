@@ -1,9 +1,44 @@
+body{
+  background-color: #f8f2f7;
+  color: rgb(0, 0, 0);
+}
+
+
+
+.qatar{
+  width: 40rem;
+  height: 38rem;
+  text-align: initial;
+  display:flex;
+  flex-direction:row;
+  margin-left: 1rem;
+  margin-bottom: 5rem;
+
+}
+
+p{
+  margin-top: 1rem;
+  margin-left: 15rem;
+  font-size: 1.1rem;
+  
+}
+
+
+h3{
+  font-size: 30px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+
+
+}
+
 
 
 
 h3 a {
     background-color: white;
-    text-decoration: none;
+    text-decoration: none
 }
 footer {
     display: flex;
