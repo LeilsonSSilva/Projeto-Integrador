@@ -8,6 +8,7 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Poppins', sans-serif; 
+
   
 }
 
@@ -105,68 +106,83 @@ footer span {
   left: 40%;
   margin: -25px 0 0 -25px;
   padding-top: 26px;
-  /*background: linear-gradient(100deg, #28091a, #823952);*/
+ }
+
+.container01 {
+    display: flex;
+    overflow: hidden;   
 }
 
-.Brasil {
-  /* background-color: rgba(260, 200, 3, 0.867);*/
-  background-color: #fccc0c;
-  color: #084ce4;
-  }
+.id1 {
+    flex-grow: 2;
+    height: auto;
+    width: 66%;
+    /* top: 90%;
+    transform: translateY(-22.7%); */
+}
 
-.Brasil p {
-  padding-left: 20px;
-  text-decoration: solid;
+.idArgentina {
+    display: flex;
+    flex-grow: 1;
+}
+        
+.id2 {
+    height: auto;
+    width: auto;
+    /* top: 39.6%; */
+    /* transform: translateY(-10%); */
+}
+
+#id3 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    height: 100%;
+    width: 200%;
+    background-color: #84c4dc;
+    color: white;
+    padding-bottom: 1rem;
 
 }
 
-.CBF {
-  border-style: dashed;
-  background-color: black;
-  display: flex;
-  justify-content: right;
-  align-self: center;
-}
-
-.Argentina {
-  background-color: #84c4dc;
-  color: white;
-  padding-bottom: 1rem;
-}
-
-.Argentina p {
-  padding-left: 20px;
-  text-decoration: solid;
+.container02 {
+    display: flex;
+    overflow: hidden;   
     
 }
 
-.Argentina img {
-  display: flex;
-  justify-content: right;
-  padding-bottom: 1rem;
+#idBrasil {
+    display: flex;
+    justify-content: center;
+    flex-grow: 3;
+    background-color: #fccc0c;
 }
 
-.Franca {
-  background-color: white;
- 
+#id4 {
+    color: #084ce4;
+    padding-left: 1rem;
+    padding-top: 1rem;
+   }
+
+#id5 {
+    
+    
+   }
+
+#idFranca {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
 }
+#id6 {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-color: white;
+   }
 
-.Franca p {
-  padding-left: 20px;
-  text-decoration: solid;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  
-}
-
-.Franca img {
-  padding-top: 1rem;
-  display: flex;
-  justify-content: center;
-}
-
-
-
+#id7 {
+    height: 10%;
+    padding-left: 5rem;
+   }
 
 
 
