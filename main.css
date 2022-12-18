@@ -8,8 +8,6 @@
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Poppins', sans-serif; 
-
-  
 }
 
 body{
@@ -47,10 +45,10 @@ h2 {
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   list-style: none;
-  gap: 0.1rem;
-  margin-bottom: 1rem;
+  gap: 1px;
+  margin-bottom: 10px;
   
 }
 
@@ -148,22 +146,20 @@ footer span {
 #id3 p {
     padding-top: 0%;
     padding-bottom: 0%;
-    
-
 }
 
 .container02 {
     display: flex;
     overflow: hidden; 
     height: 10rem;  
-    
 }
+
 
 #idBrasil {
     display: flex;
     justify-content: center;
     flex-grow: 3;
-    width: 44.8%;
+    width: 84.3%;
     background-color: #fccc0c;
 }
 
@@ -177,18 +173,11 @@ footer span {
 #id4 p {
     padding-top: 0%;
     padding-bottom: 0%;
-    padding-left: 1rem;
 }
 
-/* #id5 {
-    padding-right: 1rem;
-    padding-top: 5rem;    
-   } */
-
-#id5 p {
-   padding-top: 5rem;    
-   }
-
+#id5 {
+    height: 300px;
+}
 
 
 #idFranca {
@@ -197,10 +186,13 @@ footer span {
     display: flex;
     justify-content: space-around;
 }
+
+
 #id6 {
     padding-left: 1rem;
     padding-top: 1rem;
     background-color: white;
+   /*  margin-left: 303px; */
    }
 
 #id7 {
