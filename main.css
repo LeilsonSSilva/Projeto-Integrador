@@ -49,7 +49,6 @@ ul {
   list-style: none;
   gap: 1px;
   margin-bottom: 10px;
-  
 }
 
 a {
@@ -57,8 +56,8 @@ a {
   font-size: 18px;
   padding-bottom: 1rem;
   padding-top: 1rem;
-  padding-left: 1.6rem;
-  padding-right: 1.8rem;
+  padding-left: 3.1rem;
+  padding-right: 3.1rem;
 }
  
 footer {
@@ -108,39 +107,34 @@ footer span {
 
 .container01 {
     display: flex;
-  /*   overflow: hidden;   */
-    height: 35rem; 
-    background-color: #84c4dc;
+    height: 35rem;   
+    background-color: #84c4dc; 
+    max-width: 100%;
 }
 
 .id1 {
-  /*   flex-grow: 2; */
     height: 100%;
     width: 66%;
-    /*   top: 80%; */
-  /*   transform: translateY(0%); */
-}
+    max-width: 1150px;
+    }
 
 .idArgentina {
     display: flex;
     height: 100%;
-    /* flex-grow: 1; */
-/*     background-color: #084ce4; */
-   /*  background-color: #84c4dc; */
-}
+    width: 100%;
+    max-width: 750px;
+  }
         
 .id2 {
     height: 30rem;
-   /*  width: auto; */
-    /* top: 39.6%; */
-    /* transform: translateY(-10%); */
+    width: 100%;
+    max-width: 750px;
 }
 
 #id3 {
-    padding-left: 1rem;
-    padding-top: 1rem;
-    color: white;
-   
+    padding-left: 2rem;
+    padding-top: 8px;
+    color: white;  
 }
 
 #id3 p {
@@ -153,16 +147,15 @@ footer span {
     display: flex;
     overflow: hidden; 
     height: 12rem;
-    flex-grow: 4;
-    width: -1000px;
-     
+    flex-grow: 4;    
 }
 
 
 #idBrasil {
     display: flex;
     background-color: #fccc0c;
-    width: 1013px;
+    width: 66%;
+    max-width: 1150px;
 }
 
 #id4 {
@@ -180,19 +173,18 @@ footer span {
     padding-bottom: 0%;
 }
 
-.id5 {
+/* .id5 {
     height: 600px;
-    padding-bottom: 20rem;
-   }
-
+    padding-bottom: 5rem;
+     
+}
+ */
 
 #idFranca {
     background-color: white;
-/*     flex-grow: 2; */
     display: flex;
-   /*  justify-content: ; */
-   width: 1000px;
-
+    width: 52%;
+    max-width: 750px;
 }
 
 
@@ -200,14 +192,5 @@ footer span {
     padding-left: 1rem;
     padding-top: 1rem;
     background-color: white;
-   /*  margin-left: 303px; */
-   }
+    }
 
-.id7 {
-  height: 500px;
-  padding-bottom: 10rem;
- /*  display: flex;
-  justify-content: flex-end;
-  align-items: center;
- */
-}
