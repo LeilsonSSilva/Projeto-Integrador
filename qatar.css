@@ -14,34 +14,36 @@ body{
   padding-bottom: 2rem;
   word-spacing: 15px;
   letter-spacing: 2px;
+  padding-left: 55rem;
+
  
 }
 
 .texto{
   word-spacing: 15px;
   letter-spacing: 1px;
-  padding-left: 48rem;
+  padding-left: 4rem;
   padding-right: 4rem;
+  padding-bottom: 20rem;
+  padding-top: 5rem;
   text-indent: 2rem;
   text-align: justify;
   color: rgb(251, 250, 250);
   font-weight: 400;
   font-size: 1.2rem;
-  margin-left: 1px;
-  margin-bottom: 1px;
-  margin-top: 1px;
-  margin-right: 1px;
+  margin-top: 15px;
   background-image: url(./images/Estadio-qatar.png);
   background-repeat: no-repeat;
   background-size: cover;
-   
-}
+  background-position: center;
+ }
 
 
 #li{
   text-decoration: underline;
-  color: black;
+  color: rgb(250, 247, 248);
   background-color: rgba(0, 0, 0, 0);
+  
 
 }
 
