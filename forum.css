@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap'); */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif; 
+}
+
+body{
+  background-color: #f8f2f7;
+  color: rgb(0, 0, 0);
+}
+
+
+main {
+    display: flex;
+    flex-grow: 2;
+
+
+} 
+
+.criartopico {
+    /* padding-left: 2rem; */
+    background-color: rgb(14, 136, 244);
+    
+
+}
+.criartopico, p{
+    padding: 1rem;
+
+    }
+
+article {
+    margin: 2rem;
+}
+
+
+footer {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(66, 17, 44);
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8px;
+   
+  }
+  
+  footer div {
+    background-color: #dddd;
+    padding-top: 8px;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+  footer span {
+    font-size: x-small;
+    background-color: #dddd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 8px;
+  }
