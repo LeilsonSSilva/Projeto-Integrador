@@ -15,6 +15,49 @@ body{
   color: rgb(0, 0, 0);
 }
 
+h1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(84, 9, 94);
+  color:#f8f2f7;
+  font-size: 100px;
+  /* padding: 1rem; */
+ 
+}
+
+h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  background-color: rgb(84, 9, 94);
+  color:#f8f2f7;
+  font-size: 16px;
+}
+
+.img-header {
+  display: flex;
+  margin-bottom: 1rem;
+  background-color: rgb(84, 9, 94);
+  
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  gap: 1px;
+  margin-bottom: 10px;
+}
+
+a {
+  background-color: #dddd;
+  font-size: 18px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  padding-left: 3.1rem;
+  padding-right: 3.1rem;
+}
 
 main {
     display: flex;
@@ -34,7 +77,7 @@ main {
 }
 
 form {
-    padding-bottom: 449.6vh; 
+    /* padding-bottom: 449.6vh;  */
 
 }
 .criartopico p {
@@ -50,7 +93,8 @@ article {
    margin-left: 12.75rem;
    /* margin-right: center; */
    margin-block-start: auto;
-   margin-top: -464.9vh;
+   /* margin-top: -464.9vh; */
+   margin-top: -10.1rem;
    background-color: rgb(84, 9, 94);
    width: 89%;
    margin-bottom: -0.1rem;
