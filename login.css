@@ -201,6 +201,60 @@
 
 
 
+
+
+
+
+/* ---------- Estilos dinâmicos inicio ---------- */
+
+.helper-text {
+  display: none; 
+  font-size: .8rem;
+  color: darkred;
+}
+
+
+.required-popup::after {
+  content: "*Campo obrigatório";
+  position: relative;
+  top: 0rem;
+  right: -23.8rem;
+  color: #fd0505;
+  font-size: .65rem;
+  padding: .2rem .3rem;
+  width: auto;
+  display: block;
+  background-color: 0, 0, 0, 0;
+}
+
+input.error {
+  border: solid 2px #992020;
+  background-color: #CCBBBB;
+  color: #662020;
+}
+
+input.correct {
+  background-color: #BBCCBB;
+  border: solid 2px #206620;
+  color: #206620;
+}
+
+.visible {
+  display: block;
+}
+
+/* ---------- Estilos dinâmicos fim ---------- */
+
+
+
+
+
+
+
+
+
+
+
 footer {
     display: flex;
     flex-direction:column;
