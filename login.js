@@ -46,7 +46,7 @@ emailInput.addEventListener("change", (e)=> {
     inputsCorretos.email = true
   } else {
     // Adicionar estilos dinâmicos se o valor tiver menos de 3 caracteres
-    emailHelper.innerText = "Nome do usuário incorreto";
+    emailHelper.innerText = "Usuário não encontrado";
     estilizarInputIncorreto(emailInput, emailHelper);
     inputsCorretos.email = false
   }
