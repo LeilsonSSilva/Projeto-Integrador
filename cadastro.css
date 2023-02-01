@@ -90,7 +90,7 @@
   border: none;
   font-size: 17px;
   color: #32324f;
-  background-color: #ecf2f7;
+  /* background-color: #ecf2f7; */
   border-radius: 5px;
 }
 
@@ -192,7 +192,7 @@
   content: "*Campo obrigatório";
   position: relative;
   top: 0rem;
-  right: -23.8rem;
+  right: -22.8rem;
   color: #fd0505;
   font-size: .65rem;
   padding: .2rem .3rem;
@@ -201,16 +201,12 @@
   background-color: 0, 0, 0, 0;
 }
 
-input.error {
-  border: solid 2px #992020;
-  background-color: #CCBBBB;
-  color: #662020;
+input.error {  
+  background-color: #e49090;
 }
 
 input.correct {
-  background-color: #BBCCBB;
-  border: solid 2px #206620;
-  color: #206620;
+  background-color: #a4dfa4;  
 }
 
 .visible {
@@ -219,6 +215,13 @@ input.correct {
 
 /* ---------- Estilos dinâmicos fim ---------- */
 
+
+
+section button {
+  margin-top: 1.5rem;
+  border: #3d0221;
+  width: 30rem;    
+}
 
 
 

@@ -159,36 +159,35 @@ confirmaSenhaInput.addEventListener("blur", (e)=>{
 
 // // --------------- EVITAR ENVIO DO FORMULÁRIO -------------------- //
 
-// let btnEnviar = document.querySelector("div > button")
-// let btnEnviar = document.getElementsByClassName("input-box")
+let btnEnviar = document.querySelector("div > button")
 
-// let inputsCorretos = {
-//     nome: false,
-//     sobrenome: false,
-//     email: false,
-//     senha : false,
-//     confirmaSenha: false
-// }
+let inputsCorretos = {
+    nome: false,
+    sobrenome: false,
+    email: false,
+    senha : false,
+    confirmaSenha: false
+}
 
 
-// btnEnviar.addEventListener("click", (e)=>{
-//   if(
-//     inputsCorretos.nome == false ||
-//     inputsCorretos.sobrenome == false ||
-//     inputsCorretos.email == false ||
-//     inputsCorretos.senha == false ||
-//     inputsCorretos.confirma-senha == false
-//   ){
-//     // Qualquer um dos campos tiver informação errada, não enviar 
-//     e.preventDefault()
-//     alert("Precisa preencher todas as informações obrigatórias de forma correta")
+btnEnviar.addEventListener("click", (e)=>{
+  if(
+    inputsCorretos.nome == false ||
+    inputsCorretos.sobrenome == false ||
+    inputsCorretos.email == false ||
+    inputsCorretos.senha == false ||
+    inputsCorretos.confirma-senha == false
+  ){
+    // Qualquer um dos campos tiver informação errada, não enviar 
+    e.preventDefault()
+    alert("Precisa preencher todas as informações obrigatórias de forma correta")
     
-//   }else{
-//     // Enviar formulário
-//     alert("Formulário enviado com sucesso")
-//   }
+  }else{
+    // Enviar formulário
+    alert("Formulário enviado com sucesso")
+  }
 
-// })
+})
 
 
 
